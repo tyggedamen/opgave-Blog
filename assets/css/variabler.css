@@ -5,6 +5,7 @@
     
 
     --font-base: 'Montserrat', sans-serif;
-
+    --border-thin: thin solid var(--base-color);
+    
 
 }
