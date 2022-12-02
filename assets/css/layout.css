@@ -17,7 +17,7 @@ header p {
 }
 
 header h1 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
@@ -29,10 +29,19 @@ header h2 {
 }
 
 body {
+     
     background-image: url("img/backgroundimages.jpg");
     background-size: auto;
     z-index: 50%;
 
+}
+
+.wrapper {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+
+    max-width: 600px;
+    gap: 10px;
 }
 
 .menu ul {
@@ -71,28 +80,31 @@ main section {
 }
 
 .container {
-    display: flex;
-    /* flex-wrap: wrap; */
-    gap: 0.5rem;
-    place-content: center;
 
-    width: 110%;
-    height: fit-content;
-    padding: 1rem;
-    margin: auto;
+    display: grid;
+    
+    
+
+    grid-row: 1 /span 2;
+    grid-column: 1 /span 2;
+
+
+
+   
 }
 
 .text {
     display: grid;
     background-color:var(--color-light);
-    grid-row: 3/span 2;
-    grid-column: 6/span 4;
+
+    grid-row: span 2;
+    
 
     font-size: 2.5 em;
     
     width: 300px;
     padding: 80px;
-    margin: 20px
+    margin: 20px 
 }
 
 form {

@@ -17,26 +17,26 @@ let messageDiv = document.getElementById("message")
 
 // console.log(messageDiv)
 
-let html
+// let html
 
-html = "<h1>"
-html += "Skønt "
-html += urlObject.searchParams.get("your-name")
-html += "</h1>"
+// html = "<h1>"
+// html += "Skønt "
+// html += urlObject.searchParams.get("your-name")
+// html += "</h1>"
 
-html += "<p>"
-html += " Tak for din tilmelding ❤️‍🔥"
-html += "</p>"
+// html += "<p>"
+// html += " Tak for din tilmelding ❤️‍🔥"
+// html += "</p>"
 
-html += "Glæd dig, du hører fra mig i din mail. "
-html += urlObject.searchParams.get("your-email")
-html += "</p>"
+// html += "Glæd dig, du hører fra mig i din mail. "
+// html += urlObject.searchParams.get("your-email")
+// html += "</p>"
 
-messageDiv.innerHTML = html 
-document.body.style.backgroundColor = urlObject.searchParams.get("your-color")
+// messageDiv.innerHTML = html 
+// document.body.style.backgroundColor = urlObject.searchParams.get("your-color")
 
-let backBtn = document.getElementById("back-btn")
+// let backBtn = document.getElementById("back-btn")
 
-backBtn.onclick = function (){
-    window.location = "index.html"
-}
+// backBtn.onclick = function (){
+//     window.location = "index.html"
+// }
