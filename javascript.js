@@ -17,7 +17,7 @@
  html += "</p>"
 
 
- 
+ let backBtn = document.getElementById("back-btn")
 
     const submit = document.querySelector(".c-form")
     submit.addEventListener("submit", submitHandler)
