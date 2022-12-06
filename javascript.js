@@ -31,11 +31,11 @@ html += urlObject.searchParams.get("your-name")
  html += urlObject.searchParams.get("your-email")
  html += "</p>"
 
-// messageDiv.innerHTML = html 
-// document.body.style.backgroundColor = urlObject.searchParams.get("your-color")
+ messageDiv.innerHTML = html 
+
 
  let backBtn = document.getElementById("back-btn")
 
-// backBtn.onclick = function (){
-//     window.location = "index.html"
-// }
+ backBtn.onclick = function (){
+     window.location = "nyhedsbrev.html"
+    }
