@@ -1,19 +1,8 @@
-let btn = document.getElementById("menu-btn")
-
-let items = document.getElementById("menu-items")
-
-btn.onclick = function () {
-    items.classList.toggle ("visible")
-}
-
-let urlString = window.location
-
-// console.log(urlString)
-let urlObject = new URL(urlString)
 
 
 
-let messageDiv = document.getElementById("message")
+
+//let messageDiv = document.getElementById("message")
 
 // console.log(messageDiv)
 
@@ -21,21 +10,29 @@ let messageDiv = document.getElementById("message")
 
  html = "<h1>"
  html += "Skønt "
-html += urlObject.searchParams.get("your-name")
+//html += urlObject.searchParams.get("your-name")
  html += "</h1>"
 
  html += "<p>"
  html += " Tak for din tilmelding ❤️‍🔥"
  html += "</p>"
  html += "Glæd dig, du hører fra mig i din mail. "
- html += urlObject.searchParams.get("your-email")
+ //html += urlObject.searchParams.get("your-email")
  html += "</p>"
 
- messageDiv.innerHTML = html 
+ //messageDiv.innerHTML = html 
 
 
  let backBtn = document.getElementById("back-btn")
 
- backBtn.onclick = function (){
-     window.location = "nyhedsbrev.html"
+ //backBtn.onclick = function (){
+   //  window.location = "nyhedsbrev.html"
+    //}
+
+    const submit = document.querySelector(".c-form")
+    submit.addEventListener("submit", submitHandler)
+
+    function submitHandler(e){
+        e.preventDefault()
+        document.querySelector(".c-form").innerHTML = html
     }
