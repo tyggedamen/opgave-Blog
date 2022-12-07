@@ -66,8 +66,9 @@ body {
     text-transform: lowercase; 
     
 }
-a::first-letter{
+header a{
     font-size:  uppercase;
+    
 }
 
 main section {
