@@ -225,11 +225,16 @@ form input{
 footer{
     background-color: var(--base-color);
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
     
 }
 .footer1{
 text-align: left;
 font-size: 20px;
+list-style: none;
+
 }
 
 .footer2{
@@ -238,4 +243,9 @@ font-size: 20px;
     list-style: none;
     color: black;
     
+}
+.footer3{
+    text-align: right;
+    list-style: none;
+    font-size: 20px;
 }
