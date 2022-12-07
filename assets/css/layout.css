@@ -227,7 +227,7 @@ footer{
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: flex-end;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 .footer1{
