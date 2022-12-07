@@ -20,7 +20,8 @@
  let backBtn = document.getElementById("back-btn")
 
     const submit = document.querySelector(".c-form")
-    submit.addEventListener("submit", submitHandler)
+
+    submit.addEventListener ("submit", submitHandler)
 
     function submitHandler(e){
         e.preventDefault()
