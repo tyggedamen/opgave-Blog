@@ -208,7 +208,6 @@ main a{
 
 }
 
-
 form {
 
     width: 300px;
@@ -233,15 +232,16 @@ footer{
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: flex-end;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
 }
-.footer1{
-text-align: left;
-font-size: 20px;
-list-style: none;
+footer1{
+    text-align: left;
+    font-size: 20px;   
+    list-style: none; 
+    color: black; 
 
 }
+
 
 .footer2{
     text-align: center;
