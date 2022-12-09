@@ -35,7 +35,6 @@ header h4 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 15px;
-
 }
 
 body {
@@ -43,7 +42,6 @@ body {
     background-image: url("img/backgroundimages.jpg");
     background-size: auto;
     z-index: 50%;
-
 }
 
 .menu ul {
@@ -55,7 +53,6 @@ body {
     background-color: var(--base-color);
     list-style: none;
     text-decoration-line: none;
-
 }
 
 .menu-items {
@@ -109,7 +106,7 @@ main a{
 }
 
 .box-1{
-
+    
   justify-self: center;
     margin-left: 30%;
     margin-top: 10%;
@@ -125,13 +122,13 @@ main a{
     justify-self: center;
     align-self: center;
     text-align: center;
-    margin-right: 30%;
-       
+    margin-right: 30%;     
 }
 
-
 .box-3{
+    /* align-self: center; */
     justify-self: center;
+    
     margin-left: 30%;
 }
 .box-4{
