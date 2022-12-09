@@ -2,8 +2,7 @@ header {
     background-color: var(--base-color);
     font-size: 12px;
     color: black;
-    height: 120px;
-    
+    height: 120px;   
 }
 
 header h1 p {
